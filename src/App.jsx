@@ -4,6 +4,7 @@ import ChangeTitleRealtime from "./components/ChangeTitleRealtime";
 import ChangeTitleRealtime2 from "./components/ChangeTitleRealtime2";
 import Count from "./components/Count";
 import Course from "./components/Course";
+import PostList from "./components/PostList";
 
 export default function App() {
     const courses = ["Javascript", "HTML", "CSS", "Python", "Ruby"];
@@ -30,6 +31,10 @@ export default function App() {
             <br />
 
             <ChangeTitleClickBtn2 />
+
+            <br />
+
+            <PostList />
         </>
     );
 }
