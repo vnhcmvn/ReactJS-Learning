@@ -7,9 +7,8 @@ export default function ChangeTitleRealtime() {
         document.title = title; // Cập nhật title khi title thay đổi
     }, [title]); // Chỉ chạy useEffect khi title thay đổi
 
-    const handleInputChange = (event) => {
-        setTitle(event.target.value); // Cập nhật title với giá trị mới từ input
-    };
+    const handleInputChange = (event) => setTitle(event.target.value);
+    // Cập nhật title với giá trị mới từ input
 
     return (
         <div>
