@@ -1,3 +1,5 @@
+import ChangeTitleRealtime from "./components/ChangeTitleRealtime";
+import ChangeTitleRealtime2 from "./components/ChangeTitleRealtime2";
 import Count from "./components/Count";
 import Course from "./components/Course";
 
@@ -8,9 +10,16 @@ export default function App() {
             <div>
                 <Course courses={courses} />
             </div>
-            <div>
-                <Count />
-            </div>
+
+            <Count />
+
+            <br />
+
+            <ChangeTitleRealtime />
+
+            <br />
+
+            <ChangeTitleRealtime2 />
         </>
     );
 }
