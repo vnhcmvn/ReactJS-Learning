@@ -5,6 +5,7 @@ import ChangeTitleRealtime2 from "./components/ChangeTitleRealtime2";
 import Count from "./components/Count";
 import Course from "./components/Course";
 import PostList from "./components/PostList";
+import PostListRefactor from "./components/PostListRefactor";
 
 export default function App() {
     const courses = ["Javascript", "HTML", "CSS", "Python", "Ruby"];
@@ -34,7 +35,8 @@ export default function App() {
 
             <br />
 
-            <PostList />
+            {/* <PostList /> */}
+            <PostListRefactor />
         </>
     );
 }
