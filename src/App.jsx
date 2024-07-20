@@ -5,6 +5,7 @@ import ChangeTitleRealtime2 from "./components/ChangeTitleRealtime2";
 import Count from "./components/Count";
 import Course from "./components/Course";
 import PostList from "./components/PostList";
+import PostListAxios from "./components/PostListAxios";
 import PostListRefactor from "./components/PostListRefactor";
 
 export default function App() {
@@ -36,7 +37,8 @@ export default function App() {
             <br />
 
             {/* <PostList /> */}
-            <PostListRefactor />
+            {/* <PostListRefactor /> */}
+            <PostListAxios />
         </>
     );
 }
